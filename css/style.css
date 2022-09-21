@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(49 72 86 / 84%);
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar h1 {
+    font-family: 'Secular One', sans-serif;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar a {
+    font-family: 'Secular One', sans-serif;
+}
+
+.navbar #footSpan {
+    font-size: 19px;
+    font-weight: 100;
+    color: rgb(197 218 231 / 84%);
+}
+
+#guitar {
+    display: flex;
+}
+
+#guitar i {
+    font-weight: 900;
+    color: #daa766;
+    font-size: 45px;
+    margin-left: 15px;
+} 
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: white;
+}
+
+a.current {
+    color: #daa766
+}
+
+ul a:hover {
+    color: #daa766
+}
+
+.content {
+    height: 740px;
+    background-color: #688191;
+    padding-top: 50px;
+}
+
+.content div {
+    width: 1070px;
+    height: 630px;
+    margin: auto;
+    background: url(intro.jpg) no-repeat bottom center/cover;;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px 30px;
+    color: #fff;
+    border: 1px solid;
+    text-decoration: none;
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(148, 132, 132);
+}
+
+.about p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 460px;
+    margin-bottom: 16px;
+} 
+
+.about h2 {
+    margin: 25px 0;
+    font-family: 'Rubik';
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.background {
+    background-color: #688191;
+}
+
+.about {
+    padding-bottom: 100px;    
+}
+
+.h2 {
+    color: #e4e7f8;
+}
+
+.about2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+#firstDiv {
+    margin-left: 30px;
+}
+
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.flex-grid .column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+}
+
+.column a {
+    color: #333;
+    text-decoration: none;
+}
+
+.column img {
+    width: 100%;
+}
+
+.hov:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
