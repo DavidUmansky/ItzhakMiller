@@ -142,8 +142,8 @@ ul a:hover {
 }
 
 .flex-grid .column {
-    flex: 30%;
-    max-width: 30%;
+    flex: 320px;
+    max-width: 320px;
     padding: 0 4px;
 }
 
