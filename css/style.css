@@ -162,8 +162,7 @@ ul a:hover {
 }
 
 .shows {
-    height: 900px;
-    padding: 0px 20px 40px;
+    padding: 0px 20px 70px;
 }
 
 .shows header {
@@ -183,6 +182,7 @@ ul a:hover {
     text-align: center;
     justify-content: center;
     height: 100%;
+    margin-bottom: 30px;
 }
 
 .flex-items > div {
