@@ -7,7 +7,8 @@
 body {
     font-family: 'Rubik', sans-serif;
     line-height: 1.6;
-    font-size: 18px;
+    font-weight: 100;
+    font-size: 16px;
     color: white;
 }
 
@@ -97,7 +98,7 @@ ul a:hover {
     background-color: rgb(148, 132, 132);
 }
 
-.about p {
+.about p,header p  {
     font-weight: 100;
     font-size: 16px;
     line-height: 1.4;
@@ -105,11 +106,13 @@ ul a:hover {
     margin-bottom: 16px;
 } 
 
-.about h2 {
-    margin: 25px 0;
+.h2 {
+    padding: 25px 0;
     font-family: 'Rubik';
     font-weight: 900;
     font-size: 40px;
+    color: #e4e7f8;
+    text-align: center;
 }
 
 .background {
@@ -120,14 +123,11 @@ ul a:hover {
     padding-bottom: 100px;    
 }
 
-.h2 {
-    color: #e4e7f8;
-}
 
 .about2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 #firstDiv {
@@ -154,11 +154,50 @@ ul a:hover {
 
 .column img {
     width: 100%;
+    margin-top: -1px;
 }
 
 .hov:hover {
     opacity: 0.7;
 }
+
+.shows {
+    height: 900px;
+    padding: 0px 20px 40px;
+}
+
+.shows header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.shows p {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
+.shows img {
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 
