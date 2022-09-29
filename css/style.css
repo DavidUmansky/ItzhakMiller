@@ -71,17 +71,48 @@ ul a:hover {
 }
 
 .content {
-    height: 740px;
     background-color: #688191;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.content div {
+.content .showcase {
     width: 1070px;
     height: 630px;
     margin: auto;
     background: url(intro.jpg) no-repeat bottom center/cover;;
 }
+
+.content2 .showcase {
+    background: url(intro2.jpg) no-repeat bottom center/cover;;
+}
+
+.introDiv {
+    width: 744px;
+    background-color: rgb(255 255 255 / 80%);
+    color: black;
+    margin: auto;
+    padding: 0px 100px;
+    padding-bottom: 25px;
+    margin-top: -150px;
+}
+
+.introDiv .h2 {
+    font-size: 35px;
+    color: initial;
+    text-align: initial;
+}
+
+.introDiv p {
+    margin-bottom: 20px;
+}
+
+
+.content2 .btn {
+    background-color: rgb(74, 77, 108, 0.8 );
+}
+
+
 
 .btn {
     cursor: pointer;
@@ -162,7 +193,7 @@ ul a:hover {
 }
 
 .shows {
-    padding: 0px 20px 70px;
+    padding: 0px 100px 70px;
 }
 
 .shows header {
@@ -174,7 +205,10 @@ ul a:hover {
 
 .shows p {
     text-align: center;
-    padding: 0 40px;
+}
+
+.flex-items p {
+    padding: 0 20px;
 }
 
 .flex-items {
