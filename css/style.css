@@ -97,6 +97,20 @@ ul a:hover {
     margin-top: -150px;
 }
 
+#cit {
+    font-weight: bolder;
+    font-size: 25px;
+    padding-right: 96px;
+    line-height: 1.4;
+}
+
+#cit span {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding-right: 238px;
+}
+
 .introDiv .h2 {
     font-size: 35px;
     color: initial;
@@ -150,10 +164,9 @@ ul a:hover {
     background-color: #688191;
 }
 
-.about {
-    padding-bottom: 100px;    
+.background2 {
+    background-color: rgb(49 72 86 / 84%);
 }
-
 
 .about2 {
     display: flex;
@@ -226,6 +239,35 @@ ul a:hover {
 .shows img {
     width: 100%;
 }
+
+/* .aboutSec {
+
+} */
+
+.icons {
+    padding: 30px;
+    color: black;
+}
+
+.icons img {
+    width: 65px;
+}
+
+.icons p {
+    width: 240px;
+    padding: initial;
+}
+
+.icons .ic {
+    padding: 30px;
+}
+
+iframe {
+    width: 100%;
+    height: 65%;
+}
+
+
 
 
 
