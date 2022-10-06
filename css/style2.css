@@ -1,0 +1,114 @@
+:root {
+    --font-color: #555;
+    --font-hover-color: orange;
+}
+
+body {
+    background-color: #688191 ; 
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    line-height: 0;
+}
+
+.form-group {
+    margin-bottom: 0.7em;
+}
+
+.form-label {
+    font-size: .85em;
+    color: var(--font-color);
+    display: block;
+    opacity: 0;
+    transition: all .5s;
+    transform: translateX(+50px);
+}
+
+.form-control {
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Rubik';
+    border-width: 1.3px;
+    padding: 3px 0px; 
+}
+
+
+.form-control::placeholder {
+    color: rgba(229, 240, 247, 0.84);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--font-hover-color);
+    outline: none;
+    border-width: 3px;
+    margin-bottom: -1.7px;
+}
+
+.form-control:hover {
+    border-width: 3px;
+    margin-bottom: -1.7px;    
+}
+
+.form-group:focus-within {
+    transform: scale(1.1,1.1);
+}
+
+.form-control:invalid:focus {
+    border-color: red;
+}
+
+.form-control:valid:focus {
+    border-color: green;
+}
+
+.btn2 {
+    background: 0 0 #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: var(--font-color);
+    font-size: 1em;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-size: 18px;
+}
+
+.btn2:hover {
+    border-color: var(--font-hover-color);
+    color: var(--font-hover-color);
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.focused > .form-label {
+    opacity: 1;
+    transform: translateX(0px);
+    color: rgb(197 218 231 / 84%);
+}
+
+.form-control,.btn2,.container {
+    background-color: #688191;
+    color: rgba(229, 240, 247, 0.84);
+}
+
+
+
+
+
+
+
+
+
+
+
+

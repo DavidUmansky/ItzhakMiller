@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/music.png">
+    <meta name="description" content="יצחק מילר זמר מוזיקה יהודית חסידית, מוזיקת חזנות. נוסח הרב קרליבך. מורה לחזנות, שירה, פיתוח קול, קריאה בתורה. קורס חזנות וקריאה בתורה. חזן לתפילות בחגים ושבתות. זמר אירועים דתי.">
+    <meta name="keywords" content="יצחק מילר, מוזיקה יהודית, מוזיקה חסידית, חזנות, זמר אירועים דתי, קרליבך, מורה חזנות, מורה נוסח תפילה, מורה קריאה בתורה, קורס חזנות, קורס קריאה בתורה, זמר הופעות דתי, זמר לנופש דתי, חזן לשבת, חזן לימים נוראים, חזן לחגים, זמר חתונה דתי, זמר קבל פנים דתי, שירי קרליבך, חזנות קרליבך, זמר דתי למוסדות, זמר דתי יום הולדת, סדנת חזנות, סדנת שירה ופיתוח קול לדתיים">
+    <script src="https://kit.fontawesome.com/778a484e69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>יצחק מילר זמר מוזיקה חסידית|קרליבך|חזנות|מורה חזנות וקריאה בתורה</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet"></head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="navbar">
+            <div id="guitar">
+                <i class="far fa-guitar fa-2x"></i>
+                <a style="text-decoration: none; color: inherit; padding: 0px; margin: 0px;" href=""><h1 class="logo"> יצחק מילר <span id="footSpan">זמר / חזן / מורה שירה וקריאה בתורה</span></h1></a>
+            </div> 
+            <nav>
+                <ul>
+                    <li><a style="text-decoration: none;" href="index.html">בית</a></li>
+                    <li><a style="text-decoration: none;" href="about.html">אודות</a></li>
+                    <li><a style="text-decoration: none;" href="shows.html">אירועים</a></li>
+                    <li><a style="text-decoration: none;" href="leasons.html">לימוד</a></li>
+                    <li><a style="text-decoration: none;" href="contact.html" class="current">צור קשר</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="h2">יצירת קשר</h2>
+        <div class="container">
+            <form action="" method="POST" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">הקלידו שם פרטי ומשפחה</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="שם" tabindex="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="form-label">הקלידו מספר טלפון</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="נייד" tabindex="2" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">הקלידו מייל</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="כתובת מייל" tabindex="3" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">הקלידו נושא</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="נושא" tabindex="4" >
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">הקלידו הודעה</label>
+                    <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="הודעה" tabindex="5" required></textarea>
+                </div>
+                <div>
+                    <button class="btn2" type="submit">שליחת הודעה</button>
+                </div>
+            </form>
+        </div>
+    </main> 
+        
+            
+        <script src="main.js"></script>
+    
+    </body>
+    
+    </html>
+
+
+
+<!-- 
+
+    <?php
+
+    $message_sent = false;
+    
+    if (isset($_POST['email']) && $_POST['email'] != '') {
+        if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+            $userName = $_POST['name'];
+            $userEmail = $_POST['email'];
+            $messageSubject = $_POST['subject'];
+            $message = $_POST['message'];
+    
+            $to = "davidum77@yahoo.com";
+            $body = "";
+    
+            $body .= "From: " . $userName . "\r\n";
+            $body .= "Email: " . $userEmail . "\r\n";
+            $body .= "Message: " . $message . "\r\n";
+    
+            mail($to, $messageSubject, $body);
+    
+            $message_sent = true;
+        }
+    }
+    
+    
+    ?>
+    
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+    
+        <?php
+        if($message_sent):
+        ?>
+         
+            <h3>Thanks, We'll be in touch</h3>
+    
+        <?php
+        else:
+        ?>
+    
+        <div class="container">
+            <form action="" method="POST" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="jane@doe.com" tabindex="2" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Hello There!" tabindex="3" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
+                </div>
+                <div>
+                    <button class="btn" type="submit">Send Message!</button>
+                </div>
+    
+            </form>
+        </div>
+        
+    
+        <script src="main.js"></script>
+    
+        <?php
+        endif;
+        ?>
+    </body>
+    
+    </html> -->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
