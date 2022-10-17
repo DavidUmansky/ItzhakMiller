@@ -89,7 +89,7 @@ ul a:hover {
 
 .introDiv {
     width: 744px;
-    background-color: rgb(255 255 255 / 80%);
+    background-color: rgb(255 255 255 / 90%);
     color: black;
     margin: auto;
     padding: 0px 100px;
@@ -112,7 +112,7 @@ ul a:hover {
 }
 
 .introDiv .h2 {
-    font-size: 35px;
+    font-size: 30px;
     color: initial;
     text-align: initial;
 }
