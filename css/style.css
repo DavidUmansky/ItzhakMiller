@@ -89,12 +89,11 @@ ul a:hover {
 
 .introDiv {
     width: 744px;
-    background-color: rgb(255 255 255 / 90%);
-    color: black;
+    background-color: rgb(56 69 77 / 90%);
     margin: auto;
     padding: 0px 100px;
     padding-bottom: 25px;
-    margin-top: -150px;
+    margin-top: -100px;
 }
 
 #cit {
@@ -115,6 +114,7 @@ ul a:hover {
     font-size: 30px;
     color: initial;
     text-align: initial;
+    color: white;
 }
 
 .introDiv p {
@@ -206,7 +206,7 @@ ul a:hover {
 }
 
 .shows {
-    padding: 0px 100px 70px;
+    padding: 0px 100px 20px;
 }
 
 .shows header {
@@ -221,7 +221,9 @@ ul a:hover {
 }
 
 .flex-items p {
-    padding: 0 20px;
+    padding: 0 5px;
+    width: 280px;
+    margin: auto;
 }
 
 .flex-items {
@@ -229,7 +231,7 @@ ul a:hover {
     text-align: center;
     justify-content: center;
     height: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .flex-items > div {
