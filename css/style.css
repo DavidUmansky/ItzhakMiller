@@ -309,6 +309,22 @@
      background-color: initial;
  }
 
+#sideI {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 20;
+}
+
+#sideI a{
+    text-decoration: none;
+}
+
+.endI {
+  width: 30px;  
+}
+
+
 
 
 
@@ -426,6 +442,10 @@
      .shows {
          padding: 0px 0px 20px;
      }
+
+     .shows .h2 {
+         padding-bottom: 0px;
+     } 
 
      .lastFlex {
          padding-bottom: 0px !important;
@@ -676,7 +696,12 @@
      #listen2 {
          display: none;
      }
- }
+ 
+     form .btn2 {
+         margin-bottom: 40px;
+     }
+ 
+    }
 
  @media (min-width: 500px) and (max-width: 800px) {
 

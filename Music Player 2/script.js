@@ -16,7 +16,7 @@ loadSong(songs[songIndex])
 
 function loadSong(song) {
     title.innerText = song;
-    audio.src = `Music Player 2/music/${song}.mp3`;
+    audio.src = `Music Player 2/music/${song}.ogg`;
     cover.src = `Music Player 2/images/albom.jpg`;
 }
 

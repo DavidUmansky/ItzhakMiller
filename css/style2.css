@@ -105,10 +105,17 @@ textarea {
 .good {
     text-align: center;
     margin-top: 100px;
+    padding: 20px;
 }
 
 .good img {
     width: 65px;
+}
+
+.good + footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .conDiv {
