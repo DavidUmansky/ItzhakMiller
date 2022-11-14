@@ -113,6 +113,20 @@
      padding-right: 238px;
  }
 
+ .cit2 span {
+    padding-left: 238px !important;
+    padding-right: initial !important;
+ } 
+
+ @media (max-width: 800px) {
+    .cit2 span {
+        padding-right: initial !important;
+        padding-left: initial !important;
+        /* padding-top: 20px; */
+        text-align: right;
+    }
+}
+
  .introDiv .h2 {
      font-size: 30px;
      color: initial;

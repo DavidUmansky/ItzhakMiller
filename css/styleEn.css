@@ -10,8 +10,52 @@
     font-family: 'Rubik';
 }
 
+.navbar #footSpan {
+    font-size: 17px;
+}
+
+footer p {
+    display: none;
+}
+
+#firstDiv {
+    margin-right: 30px;
+    margin-left: initial;
+}
 
 
+
+
+
+@media (max-width: 800px) {
+    #cit span {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        padding-right: initial;
+        padding-left: initial;
+    }
+
+    #cit {
+        font-size: 19px;
+        align-items: initial;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .navbar a {
+        padding: 10px 0px;
+        margin: 0 3px;
+        font-size: 14px;
+    }
+
+    #cit {
+        font-size: 14px;
+        text-align: initial;
+    }
+    
+}
 
 
 
