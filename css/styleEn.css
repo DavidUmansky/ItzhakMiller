@@ -41,6 +41,11 @@ footer p {
         align-items: initial;
     }
 
+    #cases h2 {
+        padding-right: initial;
+        padding-left: 20px;
+    }
+
 }
 
 @media (max-width: 300px) {
