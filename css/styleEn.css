@@ -23,7 +23,11 @@ footer p {
     margin-left: initial;
 }
 
-
+#enFoot {
+        background-color: #526571;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
 
 
 
