@@ -17,12 +17,14 @@
     <script src="https://kit.fontawesome.com/778a484e69.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleEn.css">
+    <link rel="stylesheet" href="css/style2.css">
     <title>Itzhak Miller Hasidic Music Singer |Carlebach |Chazanut |Chazanut and Torah Reading teacher</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -33,16 +35,16 @@
                 <i class="far fa-guitar fa-2x"></i>
                 <a style="text-decoration: none; color: inherit; padding: 0px; margin: 0px;" href="">
                     <h1 class="logo"> Itzhak Miller <span id="footSpan">Singer / Cantor / Music & Chazanut Teacher
-                            </span></h1>
+                        </span></h1>
                 </a>
             </div>
             <nav>
                 <ul>
-                    <li><a style="text-decoration: none;" href="index.html" class="current">Home</a></li>
+                    <li><a style="text-decoration: none;" href="index.html">Home</a></li>
                     <li><a style="text-decoration: none;" href="about-en.html">About</a></li>
                     <li><a style="text-decoration: none;" href="shows-en.html">Concerts</a></li>
                     <li><a style="text-decoration: none;" href="leasons-en.html">Teaching</a></li>
-                    <li><a style="text-decoration: none;" href="contact-en.html">Contact</a></li>
+                    <li><a style="text-decoration: none;" href="contact-en.html" class="current">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -62,43 +64,47 @@
             </a>
         </div>
 
-        <section class="content">
-            <div class="showcase">
-                <a class="btn" href="tel:0546900290">Call Itzhak</a>
+        <h2 class="h2">Contact</h2>
+        <div class="container">
+            <form action="" method="POST" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Type name and last name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" tabindex="1"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="form-label">Type your number</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number" tabindex="2"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Type your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email adress"
+                        tabindex="3" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Type subject"
+                        tabindex="4">
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Type message</label>
+                    <textarea class="form-control" rows="5" cols="50" id="message" name="message"
+                        placeholder="Message" tabindex="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn2" type="submit">Send Message</button>
+                </div>
+            </form>
+            <div class="conDiv">
+                <h3 style="margin-bottom: -3px;">Email</h3>
+                <a href="mailto: tropeonline@gmail.com">tropeonline@gmail.com</a>
+                <h3>Phone number</h3>
+                <a style="display: inline;" href="tel:0546900290">0546900290</a>
             </div>
-            <div class="introDiv">
-                <h2 class="h2">Itzhak Miller - Hasidic music singer and Carlebach cantor</h2>
+        </div>
 
-                <p>
-                    Itzhak Miller is a cantor, Hasidic Music singer, composer. Additionally teaching music (vocal and
-                    instrumental), Chazanut, Torah Reading. Was student of Rabi Shlomo Carlebach and one of his closest
-                    friends.
-                    They performed together across Israel and USA and founded What is called today "Carlebach
-                    Minyans". The lyrical voice of Itzhak Miller express pure prayer and great joy and is imbued with an
-                    authentic
-                    Jewish Feeling and rythm.
-                </p>
-                <p>
 
-                    Itzhak perform in different kinds of events: birthdays, Bar Mitzva's, weddings, social events,
-                    events in educational institutions, shows in religious holidays, musical Shabat, small private
-                    events,
-                    big public events. His music concerts known as a spiritual musical joy. Itzhak perform in
-                    solo-single shows with his guitar or accompanied by additional musicians.
-                </p>
-                <p>
-                    Additionally to music concerts Itzhak also teaching Chazanut, singing, Torah Reading, guitar
-                    leasons, "Nosah Tfila" - how to lead the prayer as a cantor. You can order course, privet leasons or
-                    leasons in classes for students in various institutions.
-                </p>
-
-                <p id="cit" class="cit2">
-                    " Some people sleep until morning, <br> Others know they have to bring the morning"
-                    <br> <span>- Rabi Shlomo Carlebach Z"L </span>
-                </p>
-
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -110,9 +116,7 @@
     </footer>
 
 
-
-
-
+    <script src="main.js"></script>
 
 </body>
 

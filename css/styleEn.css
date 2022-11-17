@@ -29,6 +29,12 @@ footer p {
         padding-bottom: 40px;
     }
 
+    .conDiv {
+        line-height: initial;
+        margin-right: initial;
+        margin-left: 40px;
+        color: #e4e7f8;
+    }
 
 
 @media (max-width: 800px) {
