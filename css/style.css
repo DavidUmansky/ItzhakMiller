@@ -81,12 +81,12 @@
      width: 1070px;
      height: 630px;
      margin: auto;
-     background: url(intro.jpg) no-repeat bottom center/cover;
+     background: url(itzhak2.jpg) no-repeat bottom center/cover;
      ;
  }
 
  .content2 .showcase {
-     background: url(intro2.jpg) no-repeat bottom center/cover;
+     background: url(learn2.jpg) no-repeat top center/cover;
      ;
  }
 
@@ -114,18 +114,18 @@
  }
 
  .cit2 span {
-    padding-left: 238px !important;
-    padding-right: initial !important;
- } 
+     padding-left: 238px !important;
+     padding-right: initial !important;
+ }
 
  @media (max-width: 800px) {
-    .cit2 span {
-        padding-right: initial !important;
-        padding-left: initial !important;
-        /* padding-top: 20px; */
-        text-align: right;
-    }
-}
+     .cit2 span {
+         padding-right: initial !important;
+         padding-left: initial !important;
+         /* padding-top: 20px; */
+         text-align: right;
+     }
+ }
 
  .introDiv .h2 {
      font-size: 30px;
@@ -154,7 +154,9 @@
      float: left;
      margin-top: 150px;
      margin-left: 50px;
+     background-color: rgb(74, 77, 108, 0.8);
  }
+
 
  .btn:hover {
      background-color: rgb(148, 132, 132);
@@ -323,25 +325,25 @@
      background-color: initial;
  }
 
-#sideI,#side2 {
-    position: fixed;
-    top: 5px;
-    left: 5px;
-    z-index: 20;
-}
+ #sideI, #side2 {
+     position: fixed;
+     top: 5px;
+     left: 5px;
+     z-index: 20;
+ }
 
-#side2 {
-    left: initial;
-    right: 5px;
-}
+ #side2 {
+     left: initial;
+     right: 5px;
+ }
 
-#sideI a{
-    text-decoration: none;
-}
+ #sideI a {
+     text-decoration: none;
+ }
 
-.endI {
-  width: 30px;  
-}
+ .endI {
+     width: 30px;
+ }
 
 
 
@@ -464,7 +466,7 @@
 
      .shows .h2 {
          padding-bottom: 0px;
-     } 
+     }
 
      .lastFlex {
          padding-bottom: 0px !important;
@@ -590,11 +592,11 @@
      }
 
      .flex-grid .row {
-        margin-top: 245px;
-    }
+         margin-top: 245px;
+     }
 
 
-}
+ }
 
  @media (min-width: 801px) and (max-width: 1075px) {
      .content {
@@ -715,12 +717,12 @@
      #listen2 {
          display: none;
      }
- 
+
      form .btn2 {
          margin-bottom: 40px;
      }
- 
-    }
+
+ }
 
  @media (min-width: 500px) and (max-width: 800px) {
 
